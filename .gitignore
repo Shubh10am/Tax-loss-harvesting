@@ -1,0 +1,63 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
+
+# Production
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test coverage
+coverage/
+*.lcov
+
+# Misc
+*.log
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REACT Native
+.expo/
+
+# Ignore build artifacts
+*.tgz
+
+# Ignore secrets
+secrets.*
+
+# Ignore data files
+*.csv
+*.db
+*.sqlite3
+
+# Ignore lock files (optional, if you use only one package manager, remove others)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
